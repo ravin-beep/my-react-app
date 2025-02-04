@@ -46,26 +46,32 @@
     display: flex;
     width: 100%;
     max-width: 600px;
-    border: 1px solid #201c1a;
+    height: fit-content;
     gap: 8px;
+    align-items: flex-end;
   }
   
   .search-input {
     flex-grow: 1;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    display: flex;
+    height: 20px;
+    font-size: 16px;
   }
   
   .search-button {
     background-color: #201c1a;
     color: white;
-    padding: 8px 16px;
+    padding: 10px 16px;
     border: none;
     border-radius: 4px;
     display: flex;
     align-items: center;
     cursor: pointer;
+    height: 40px;
+    font-size: 16px;
   }
   
   .search-button:hover {
