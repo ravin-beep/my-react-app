@@ -59,6 +59,7 @@
     display: flex;
     height: 20px;
     font-size: 16px;
+    font-family: "Courier New", monospace;
   }
   
   .search-button {
@@ -72,6 +73,7 @@
     cursor: pointer;
     height: 40px;
     font-size: 16px;
+    font-family: "Courier New", monospace;
   }
   
   .search-button:hover {

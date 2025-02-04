@@ -36,7 +36,14 @@
 .section-title {
   font-size: 6rem;
   font-weight: bold;
+  font-style: italic;
   text-align: left;
+  font-family: "Comic Sans MS", cursive;
+  color: #d5b78e;
+}
+
+.wooden .section-title{
+  background-color: rgba(32, 28, 26, 0.6);
 }
 
 /* Only apply slide-in effect to Bakery */
@@ -55,9 +62,13 @@
 /* Description Styling */
 .description {
   font-size: 1.5rem;
-  background: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: italic;
+  background-color: rgba(32, 28, 26, 0.6);
   padding: 10px 20px;
   border-radius: 10px;
+  color: #d5b78e;
+  font-family: "Courier New", monospace;
 }
 
 /* Search Button (inside Bakery) */
@@ -66,11 +77,12 @@
   padding: 15px 30px;
   font-size: 1.5rem;
   color: white;
-  background: black;
+  background: rgba(32, 28, 26, 0.6);
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+  font-family: "Courier New", monospace;
 }
 
 .search-button:hover {
