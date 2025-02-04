@@ -1,0 +1,119 @@
+
+.container {
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    color: white;
+    background-image: url("./Assets/cookery2.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .title-container {
+    background-color: rgba(32, 28, 26, 0.6); 
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 16px;
+    font-family: "Comic Sans MS", cursive;
+    color: #d5b78e;
+  }
+  .title2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 16px;
+    font-family: "Comic Sans MS", cursive;
+    color: #d5b78e;
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #201c1a;
+    gap: 8px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    background-color: #201c1a;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #000;
+  }
+  
+  .search-icon {
+    margin-right: 4px;
+  }
+  
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 1200px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .recipe-card {
+    background-color: #d9b791;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .recipe-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 8px;
+    text-align: center;
+    color: #1d3b0d;
+    font-family: "Courier New", monospace;
+  }
+  
